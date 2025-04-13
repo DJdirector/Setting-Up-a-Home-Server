@@ -125,3 +125,29 @@ You’ll usually see a quick message like _“Press F12 for Boot Menu”_ when t
 
 Once you’re in the boot menu, **select your USB drive** and press Enter.
 
+## Instalation
+
+Once you've booted into the USB, **please don’t press any keys**—just wait for the installer window to appear.  
+When it does, go ahead and fill out the required details like your **language**, **keyboard layout**, **time zone**, **network mirror**, and so on.
+
+If you're unsure about any step, you can follow along with a YouTube tutorial for a more visual walkthrough.
+
+> ⚠️ **Tip:** If you run into any issues during installation, simply shut down your computer and reboot into the USB again. The installation media can be reused as many times as needed.
+
+---
+
+## Oh Noes! Big Scary Terminal!
+
+Once the installation is complete, the system will prompt you to reboot.  
+After confirming, it will ask you to **remove the USB drive**—do that, then hit **Enter**.
+
+If everything went smoothly, the system will finish setting itself up.  
+You should then be greeted with a **login prompt**.  
+Log in using the **credentials you created during the installation**. You’ll now find yourself at the terminal.
+
+> ⚠️ **Warning:** If something didn’t work as described in this guide, double-check the previous steps—you may have missed something.
+
+---
+
+Thanks for reading! By checking out this guide, you're supporting my work, and I really appreciate it.  
+I hope you enjoyed this installation journey and learned something new along the way!
