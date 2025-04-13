@@ -67,4 +67,12 @@ webpage.
 
 Download Link:
     https://ubuntu.com/download/server/thank-you?version=24.10&architecture=amd64
+
+## Installing Balena Etcher
+
+Once your ISO Image is done installing, we will need a tool called Balena Etcher, this will allow us to flash the ISO to a Spare USB.
+### Warning, the following link will take you to the oficial balena etcher site, if you wish to look up the webpage yourself, please confirm is is coming from the official balena etcher site.
+
+Oficial Balena Etcher Site:
+    https://etcher.balena.io/#download-etcher
     
