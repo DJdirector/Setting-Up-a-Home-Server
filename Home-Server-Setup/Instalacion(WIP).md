@@ -32,15 +32,39 @@ so why not repurpose it? If you use a Work stacion or a laptop often or just for
 - And a place to put the PC thats relativly close or right next to your modem or router.
 - alot of Patience
 
-  ## Choosing the right OS
+## Choosing the right OS
 
-  Now, if you use a work stacion or a laptop daily, then you have to atleast heard or used Windows on said devices,
-  As Windows comes with many laptops or mini PC preinstalled from the factory. Now, if you use Apple Devices, such as the Macbook Air, IPhone, or IWatch,
-  you will atleast be familiar with MacOS for MacBooks, IOS for Iphones, and whatever runs on the IWatch. Both Windows and MacOS are operating systems designed to work
-  on said hardware. but did you know that there is actually a third Operating system, mostly overshadowed until recently? Linux! Linux is a UNIX based operating system like MacOS,
-  and Dominates the charts when it comes to how many servers use it. It is highly customizable, and comes with a vast community developing Open Source software for it.
-  As per this tutorial, we shall be using Linux for the OS of the device. Now, dont worry, a whole other operaing system does sound a little scary for you new users out there.
-  but ill try to be as helpfull as can be to explain the process to you. In this tutorial, we shall be using a server instalacion, designed specifically for servers and service
-  providers.
+Now, if you use a work stacion or a laptop daily, then you have to atleast heard or used Windows on said devices,
+As Windows comes with many laptops or mini PC preinstalled from the factory. Now, if you use Apple Devices, such as the Macbook Air, IPhone, or IWatch,
+you will atleast be familiar with MacOS for MacBooks, IOS for Iphones, and whatever runs on the IWatch. Both Windows and MacOS are operating systems designed to work
+on said hardware. but did you know that there is actually a third Operating system, mostly overshadowed until recently? Linux!
 
+## Why Linux?
 
+Linux is a UNIX based operating system like MacOS, and Dominates the charts when it comes to how many servers use it. It is 
+highly customizable, and comes with a vast community developing Open Source software for it. As per this tutorial, we shall be 
+using Linux for the OS of the device. Now, dont worry, a whole other operaing system does sound a little scary for you new users 
+out there. but ill try to be as helpfull as can be to explain the process to you. In this tutorial, we shall be using a server 
+instalacion, designed specifically for servers and service providers.
+
+## Choosing the Right Distro
+
+### NOTE: Now, by no means am I and expert in the subject of Linux, so keep that in mind, and im only talking from my perspective.
+
+Distro, meaning Distribution, is actually one of the best parts of Linux. Linux, in itself, is an OS, but the vast community
+have developed different versions that are tailored to the exact needs of the user, these alternet versions are what we call
+distributions. Now, the most recognizable Distro that comes to mind when you think about Linux, is probably going to be Ubuntu,
+as it has its own vast community supporting it, and forks of it that support different desktop enviorments. As per this turorial,
+we shall be using Ubuntu Server, designed for what we will be doing today.
+
+## Installing the ISO Image
+
+### If you wish to do the Network Flashing, please skip to the next subject.
+
+Something that we will be needing, is the ISO Image of the operating system. You can download the most recent ISO Image from their
+webpage.
+### WARNING: the following link, once clicked will download the most recent Ubuntu Server ISO, If you wish to go to the website and download it yourself, please verify that it is coming from the actual Ubuntu Webpage, as other ISO's from other sights may  potentially harbor malware.
+
+Download Link:
+    https://ubuntu.com/download/server/thank-you?version=24.10&architecture=amd64
+    
