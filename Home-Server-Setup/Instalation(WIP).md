@@ -1,83 +1,127 @@
-# Installing The Future Servers Operating System
-### NOTICE: This .MD file ONLY covers the instalacion process.
+# Installing the Future Server's Operating System
 
-Table of Content:
-- Requirements
-- Choosing the right OS
-- Why Linux?
-- Choose the right Distro
-- Installing the ISO Image
-- Installing Balena Etcher
-- Flashing the ISO to a USB Thumbdrive
-- Booting into the USB
-- Instalacion
-- Oh Noes! Big Scary Terminal!
-- Conclusion
+### ⚠️ NOTICE: This `.md` file ONLY covers the installation process.
+
+## Table of Contents
+- Requirements  
+- Choosing the Right OS  
+- Why Linux?  
+- Choosing the Right Distro  
+- Downloading the ISO Image  
+- Installing Balena Etcher  
+- Flashing the ISO to a USB Thumb Drive  
+- Booting into the USB  
+- Installation  
+- Oh Noes! Big Scary Terminal!  
+- Conclusion  
+
+---
 
 ## Requirements
 
-Now, to make a project, you obviously need resources that you will use to create said project.
-But some people might not want to buy a full blown computer, and try to re-use that old PC thats clogging up space in the closet or basement.
-And thats fine! In fact, I actually highly recomend that you do this to get atleast familiar with home servers, and get that nice feeling
-that you actually did something about that previously considered E-Waste. And hey! you probably paid good money back in the day,
-so why not repurpose it? If you use a Work stacion or a laptop often or just for work, most requirements you might allready have.
-### Needed
-- Old PC or a PC in General
-- Another PC to flash the ISO Image and to remotely controll old PC
-- Keyboard that uses USB
-- Monitor
-- A USB Thumbdrive with ATLEAST 8 GB of storage.
-- An Ethernet Cable
-- And a place to put the PC thats relativly close or right next to your modem or router.
-- alot of Patience
+To build a project, you obviously need resources. But not everyone wants to buy a brand-new computer—many prefer to repurpose an old PC collecting dust in the closet or basement. And that’s a great idea! In fact, I highly recommend it. It’s a great way to get familiar with home servers and breathe new life into what might otherwise be considered e-waste. Plus, you probably paid good money for that machine back in the day—why not repurpose it?
 
-## Choosing the right OS
+If you already use a workstation or laptop for everyday tasks, you might have most of the needed tools on hand.
 
-Now, if you use a work stacion or a laptop daily, then you have to atleast heard or used Windows on said devices,
-As Windows comes with many laptops or mini PC preinstalled from the factory. Now, if you use Apple Devices, such as the Macbook Air, IPhone, or IWatch,
-you will atleast be familiar with MacOS for MacBooks, IOS for Iphones, and whatever runs on the IWatch. Both Windows and MacOS are operating systems designed to work
-on said hardware. but did you know that there is actually a third Operating system, mostly overshadowed until recently? Linux!
+### What You’ll Need:
+- An old PC or just a PC in general  
+- Another computer to flash the ISO image and remotely control the old PC  
+- A USB keyboard  
+- A monitor  
+- A USB thumb drive with **at least 8 GB** of storage  
+- An Ethernet cable  
+- A place for your PC that’s relatively close to your modem or router  
+- **A lot** of patience 
+
+---
+
+## Choosing the Right OS
+
+If you’ve used a workstation or laptop before, you’ve likely encountered Windows, since it comes pre-installed on many devices. If you’re an Apple user, you're probably familiar with macOS (for MacBooks), iOS (for iPhones), and whatever Apple’s calling the OS for the Apple Watch nowadays.
+
+But did you know there’s a third major operating system? One that’s been quietly powering the internet and servers around the world: **Linux**.
+
+---
 
 ## Why Linux?
 
-Linux is a UNIX based operating system like MacOS, and Dominates the charts when it comes to how many servers use it. It is 
-highly customizable, and comes with a vast community developing Open Source software for it. As per this tutorial, we shall be 
-using Linux for the OS of the device. Now, dont worry, a whole other operaing system does sound a little scary for you new users 
-out there. but ill try to be as helpfull as can be to explain the process to you. In this tutorial, we shall be using a server 
-instalacion, designed specifically for servers and service providers.
+Linux is a UNIX-based operating system like macOS. It's incredibly popular in the server world and offers a high level of customization. Thanks to its massive open-source community, Linux supports a wide range of software and configurations.
+
+For this tutorial, we’ll be installing a Linux-based operating system specifically designed for servers. Don’t worry if you’re new—I'll guide you through the process as clearly as possible.
+
+---
 
 ## Choosing the Right Distro
 
-### NOTE: Now, by no means am I and expert in the subject of Linux, so keep that in mind, and im only talking from my perspective.
+> ⚠️ NOTE: I'm not an expert in Linux—just someone sharing my experience. Take my advice with a grain of salt and do your own research, too!
 
-Distro, meaning Distribution, is actually one of the best parts of Linux. Linux, in itself, is an OS, but the vast community
-have developed different versions that are tailored to the exact needs of the user, these alternet versions are what we call
-distributions. Now, the most recognizable Distro that comes to mind when you think about Linux, is probably going to be Ubuntu,
-as it has its own vast community supporting it, and forks of it that support different desktop enviorments. As per this turorial,
-we shall be using Ubuntu Server, designed for what we will be doing today.
+"Distro" stands for "distribution"—a version of Linux tailored to different needs. This flexibility is one of Linux's best features. There are many different distros out there, each with its own focus, user interface, and level of complexity.
 
-## Installing the ISO Image
+The most well-known distro is probably **Ubuntu**, which has a large support community and many variations (or “forks”) that cater to different use cases.
 
-Something that we will be needing, is the ISO Image of the operating system. You can download the most recent ISO Image from their
-webpage.
-### WARNING: the following link, once clicked will download the most recent Ubuntu Server ISO, If you wish to go to the website and download it yourself, please verify that it is coming from the actual Ubuntu Webpage, as other ISO's from other sights may  potentially harbor malware.
+For our purposes, we’ll be using **Ubuntu Server**, a version of Ubuntu specifically designed for server environments.
 
-Download Link:
-    https://ubuntu.com/download/server/thank-you?version=24.10&architecture=amd64
+---
+
+## Downloading the ISO Image
+
+We’ll need the official ISO image for Ubuntu Server. You can download the latest version directly from their website:
+
+> ⚠️ WARNING: The link below will automatically begin the ISO download. If you prefer to visit the website manually, make sure you’re on the **official Ubuntu website** to avoid downloading malicious software.
+
+[Download Ubuntu Server ISO](https://ubuntu.com/download/server/thank-you?version=24.10&architecture=amd64)
+
+---
 
 ## Installing Balena Etcher
 
-Once your ISO Image is done installing, we will need a tool called Balena Etcher, this will allow us to flash the ISO to a Spare USB.
-### Warning, the following link will take you to the oficial balena etcher site, if you wish to look up the webpage yourself, please confirm is is coming from the official balena etcher site.
+Next, you’ll need a tool called **Balena Etcher**, which allows you to "flash" the ISO image onto a USB drive.
 
-Oficial Balena Etcher Site:
-    https://etcher.balena.io/#download-etcher
+> ⚠️ WARNING: The link below leads to the official Balena Etcher site. If you’d rather search for it yourself, make sure the URL matches the official domain.
 
-## Flashing The ISO to a USB
+[Visit Balena Etcher](https://etcher.balena.io/#download-etcher)
 
-### NOTE: it it absolutely required that your USB have atleast 8 GB of storage, and that there isnt anything important on that USB, as all files on it will be wiped!
+---
 
-Once Balena Etcher is Up and running, it will promt you to select the ISO Image. If you havent moved the file, it should be in your Download folder. Then, plug in your 8 GB USB and select it as the target.
-### WARNING, please do not select your Operating Systems Drive or any internal storage in the destination tab, as that could destroy your computer.
-Once the ISO Image and the USB is selected as the target, click flash. It may promt you to allow changes to your device, click yes and the flashing will begin. Once it it done, continue to the next subject.
-    
+## Flashing the ISO to a USB Thumb Drive
+
+> ⚠️ NOTE: Your USB drive must have **at least 8 GB** of storage, and **everything on it will be erased**, so make sure to back up any important data.
+
+1. Launch Balena Etcher.  
+2. Select the Ubuntu Server ISO file you downloaded (usually in your Downloads folder).  
+3. Insert your USB drive and choose it as the target device.  
+4. ⚠️ **Be careful not to select your main hard drive!** Flashing to the wrong drive can permanently damage your system.  
+5. Click "Flash" and allow any permissions or prompts that appear.  
+
+Once it’s done, you're ready to boot from the USB!
+
+## Booting into the USB
+
+Now that your USB thumb drive is ready, it’s time to start setting up your future server.
+
+### Step-by-Step:
+
+1. **Take your future server (the old PC you’re repurposing)** and bring it near your modem or router.  
+2. **Plug an Ethernet cable** from the PC directly into the router. This gives the server access to the internet and your network.  
+3. **Connect the power cable** and turn on the PC.  
+4. **Plug in the USB drive** that you flashed with Ubuntu Server.  
+5. **Connect a monitor and a USB keyboard** to the PC so you can interact with it.  
+
+---
+
+### Accessing the Boot Menu
+
+Every PC has a different method for entering the **boot menu**—this is the screen where you choose which device to boot from (like your USB drive).
+
+When you power on the PC, you’ll need to **press a key during startup**. Common keys include:
+
+- `F12`  
+- `F10`  
+- `F2`  
+- `DEL`  
+- `ESC`  
+
+You’ll usually see a quick message like _“Press F12 for Boot Menu”_ when the PC first powers on. If you’re unsure, you can look up your PC’s brand and model online along with the words “boot menu key.”
+
+Once you’re in the boot menu, **select your USB drive** and press Enter.
+
