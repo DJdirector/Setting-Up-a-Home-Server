@@ -9,7 +9,6 @@ Table of Content:
 - Installing the ISO Image
 - Installing Balena Etcher
 - Flashing the ISO to a USB Thumbdrive
-  -(Alternativley) Network Flash
 - Booting into the USB
 - Instalacion
 - Oh Noes! Big Scary Terminal!
@@ -59,8 +58,6 @@ we shall be using Ubuntu Server, designed for what we will be doing today.
 
 ## Installing the ISO Image
 
-### If you wish to do the Network Flashing, please skip to the next subject.
-
 Something that we will be needing, is the ISO Image of the operating system. You can download the most recent ISO Image from their
 webpage.
 ### WARNING: the following link, once clicked will download the most recent Ubuntu Server ISO, If you wish to go to the website and download it yourself, please verify that it is coming from the actual Ubuntu Webpage, as other ISO's from other sights may  potentially harbor malware.
@@ -75,4 +72,12 @@ Once your ISO Image is done installing, we will need a tool called Balena Etcher
 
 Oficial Balena Etcher Site:
     https://etcher.balena.io/#download-etcher
+
+## Flashing The ISO to a USB
+
+### NOTE: it it absolutely required that your USB have atleast 8 GB of storage, and that there isnt anything important on that USB, as all files on it will be wiped!
+
+Once Balena Etcher is Up and running, it will promt you to select the ISO Image. If you havent moved the file, it should be in your Download folder. Then, plug in your 8 GB USB and select it as the target.
+### WARNING, please do not select your Operating Systems Drive or any internal storage in the destination tab, as that could destroy your computer.
+Once the ISO Image and the USB is selected as the target, click flash. It may promt you to allow changes to your device, click yes and the flashing will begin. Once it it done, continue to the next subject.
     
